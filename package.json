@@ -1,7 +1,7 @@
 {
   "name": "@nexssp/email",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Functions to send html templates based on pug template system.",
   "main": "src/email.js",
   "scripts": {
     "test": "nexssp-test --debug"
