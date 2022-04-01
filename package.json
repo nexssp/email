@@ -1,0 +1,29 @@
+{
+  "name": "@nexssp/email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/email.js",
+  "scripts": {
+    "test": "nexssp-test --debug"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "Marcin Polak / nexss.com",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./src/email.mjs",
+      "require": "./src/email.js"
+    }
+  },
+  "dependencies": {
+    "html-to-text": "^8.1.0",
+    "nodemailer": "^6.7.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@nexssp/test": "^1.1.15",
+    "dotenv": "^16.0.0"
+  }
+}
